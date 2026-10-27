@@ -1,4 +1,6 @@
 package bookingSystem.Cab_Booking_System.Service;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import bookingSystem.Cab_Booking_System.Dto.BookingRequestDTO;
 import bookingSystem.Cab_Booking_System.Dto.BookingResponseDTO;
@@ -16,8 +18,11 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
+
 @Service
 public class BookingService {
+    private static final Logger logger = LogManager.getLogger(BookingService.class);
+
     private final BookingRepository bookingRepository;
     private final CustomerRepository customerRepository;
     private final CabRepository cabRepository;
@@ -34,9 +39,14 @@ public class BookingService {
                 .orElseThrow(()-> new EntityNotFoundException("Customer not found with this id " + dto.getCustomerId()));
         Cab cab = cabRepository.findById(dto.getCabId())
                 .orElseThrow(()-> new EntityNotFoundException("Cab not found with this id " + dto.getCabId()));
+
+        logger.info("Creating booking for customer {} and cab {}", dto.getCustomerId(), dto.getCabId());
+
         if(cab.getStatus() != CabStatus.AVAILABLE){
+            logger.warn("Cab {} not available for booking.", dto.getCabId());
             throw new CabNotAvailableException("Cab is not available.");
         }
+
         Booking booking = new Booking(dto.getPickupLocation(),
                 dto.getDropLocation(),
                 BigDecimal.ZERO,
@@ -48,6 +58,9 @@ public class BookingService {
         cabRepository.save(cab);
 
         Booking saved = bookingRepository.save(booking);
+
+        logger.info("Booking {} created successfully",saved.getId());
+
         return mapToResponseDto(saved);
     }
 
@@ -71,6 +84,9 @@ public class BookingService {
     public BookingResponseDTO cancelBooking(Long id){
         Booking booking = bookingRepository.findById(id)
                 .orElseThrow(() -> new EntityNotFoundException("Booking not found with this id " + id));
+
+        logger.info("Canceling a booking {}",booking.getId());
+
         booking.setStatus(BookingStatus.CANCELLED);
         booking.getCab().setStatus(CabStatus.AVAILABLE);
         cabRepository.save(booking.getCab());

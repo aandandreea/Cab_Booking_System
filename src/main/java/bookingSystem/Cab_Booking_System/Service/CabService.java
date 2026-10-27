@@ -8,12 +8,14 @@ import bookingSystem.Cab_Booking_System.models.CabStatus;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 @Service
 public class CabService {
+    private static final Logger logger = LogManager.getLogger(CabService.class);
+
     private final CabRepository cabRepository;
 
     public CabService(CabRepository cabRepository) {
@@ -22,6 +24,8 @@ public class CabService {
     public CabResponseDTO addCab(CabRequestDTO dto){
         Cab cab = new Cab(dto.getRegistrationNo(),dto.getModel(), CabStatus.AVAILABLE);
         Cab saved = cabRepository.save(cab);
+
+        logger.info("Adding a cab {}",saved.getId());
         return mapToResponseDTO(saved);
     }
     private CabResponseDTO mapToResponseDTO(Cab cab){
