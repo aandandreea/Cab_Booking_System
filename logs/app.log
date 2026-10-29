@@ -479,3 +479,269 @@ You may need to update both your build tool settings as well as your IDE.
 2026-10-27 17:45:31 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2026-10-27 17:45:31 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2026-10-27 17:45:31 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-10-28 13:05:25 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests]: CabBookingSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-10-28 13:05:25 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests
+2026-10-28 13:05:25 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests]: CabBookingSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-10-28 13:05:25 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests
+2026-10-28 13:05:26 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - Starting CabBookingSystemApplicationTests using Java 25-loom with PID 2135 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-10-28 13:05:26 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-10-28 13:05:26 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.3.Final
+2026-10-28 13:05:26 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-28 13:05:26 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 4 JPA repository interfaces.
+2026-10-28 13:05:26 INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-28 13:05:26 INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-10-28 13:05:26 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-28 13:05:26 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-10-28 13:05:26 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7e1fb22c
+2026-10-28 13:05:26 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-10-28 13:05:26 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-28 13:05:26 INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.5
+	Default catalog/schema: postgres/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-28 13:05:27 INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-28 13:05:27 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-28 13:05:27 INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-28 13:05:27 WARN  org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-28 13:05:27 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - Started CabBookingSystemApplicationTests in 1.522 seconds (process running for 2.0)
+2026-10-28 13:05:27 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Creating booking for customer 1 and cab 1
+2026-10-28 13:05:27 WARN  bookingSystem.Cab_Booking_System.Service.BookingService - Cab 1 not available for booking.
+2026-10-28 13:05:27 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-28 13:05:27 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-10-28 13:05:27 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-10-28 13:05:32 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests]: CabBookingSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-10-28 13:05:32 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests
+2026-10-28 13:05:32 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests]: CabBookingSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-10-28 13:05:32 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests
+2026-10-28 13:05:32 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - Starting CabBookingSystemApplicationTests using Java 25-loom with PID 2279 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-10-28 13:05:32 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-10-28 13:05:32 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.3.Final
+2026-10-28 13:05:32 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-28 13:05:32 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 4 JPA repository interfaces.
+2026-10-28 13:05:33 INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-28 13:05:33 INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-10-28 13:05:33 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-28 13:05:33 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-10-28 13:05:33 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7e1fb22c
+2026-10-28 13:05:33 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-10-28 13:05:33 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-28 13:05:33 INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.5
+	Default catalog/schema: postgres/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-28 13:05:33 INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-28 13:05:33 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-28 13:05:33 INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-28 13:05:33 WARN  org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-28 13:05:33 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - Started CabBookingSystemApplicationTests in 1.418 seconds (process running for 1.836)
+2026-10-28 13:05:34 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Creating booking for customer 1 and cab 1
+2026-10-28 13:05:34 WARN  bookingSystem.Cab_Booking_System.Service.BookingService - Cab 1 not available for booking.
+2026-10-28 13:05:34 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-28 13:05:34 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-10-28 13:05:34 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-10-28 13:39:07 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests]: CabBookingSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-10-28 13:39:07 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests
+2026-10-28 13:39:07 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests]: CabBookingSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-10-28 13:39:07 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests
+2026-10-28 13:39:07 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - Starting CabBookingSystemApplicationTests using Java 25-loom with PID 2599 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-10-28 13:39:07 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-10-28 13:39:07 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.3.Final
+2026-10-28 13:39:07 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-28 13:39:07 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 4 JPA repository interfaces.
+2026-10-28 13:39:07 INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-28 13:39:07 INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-10-28 13:39:07 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-28 13:39:07 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-10-28 13:39:07 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@29a1ec65
+2026-10-28 13:39:07 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-10-28 13:39:07 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-28 13:39:07 INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.5
+	Default catalog/schema: postgres/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-28 13:39:08 INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-28 13:39:08 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-28 13:39:08 INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-28 13:39:08 WARN  org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-28 13:39:08 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - Started CabBookingSystemApplicationTests in 1.446 seconds (process running for 1.913)
+2026-10-28 13:39:08 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Creating booking for customer 1 and cab 1
+2026-10-28 13:39:08 WARN  bookingSystem.Cab_Booking_System.Service.BookingService - Cab 1 not available for booking.
+2026-10-28 13:39:08 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Creating booking for customer 1 and cab 1
+2026-10-28 13:39:08 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Booking null created successfully
+2026-10-28 13:39:08 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Canceling a booking null
+2026-10-28 13:39:08 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-28 13:39:08 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-10-28 13:39:08 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-10-28 13:43:02 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Creating booking for customer 1 and cab 1
+2026-10-28 13:43:02 WARN  bookingSystem.Cab_Booking_System.Service.BookingService - Cab 1 not available for booking.
+2026-10-28 13:43:02 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Creating booking for customer 1 and cab 1
+2026-10-28 13:43:02 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Booking null created successfully
+2026-10-28 13:43:02 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Canceling a booking null
+2026-10-29 13:12:48 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests]: CabBookingSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-10-29 13:12:48 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests
+2026-10-29 13:12:48 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests]: CabBookingSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-10-29 13:12:48 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests
+2026-10-29 13:12:48 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - Starting CabBookingSystemApplicationTests using Java 25-loom with PID 5108 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-10-29 13:12:48 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-10-29 13:12:48 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.3.Final
+2026-10-29 13:12:48 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-29 13:12:48 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 4 JPA repository interfaces.
+2026-10-29 13:12:48 INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-29 13:12:48 INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-10-29 13:12:48 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-29 13:12:48 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-10-29 13:12:48 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7d6019d5
+2026-10-29 13:12:48 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-10-29 13:12:48 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-29 13:12:48 INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.5
+	Default catalog/schema: postgres/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-29 13:12:49 INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-29 13:12:49 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-29 13:12:49 INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-29 13:12:49 WARN  org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-29 13:12:49 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - Started CabBookingSystemApplicationTests in 1.427 seconds (process running for 1.882)
+2026-10-29 13:12:49 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Creating booking for customer 1 and cab 1
+2026-10-29 13:12:49 WARN  bookingSystem.Cab_Booking_System.Service.BookingService - Cab 1 not available for booking.
+2026-10-29 13:12:49 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Creating booking for customer 1 and cab 1
+2026-10-29 13:12:49 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Booking null created successfully
+2026-10-29 13:12:49 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Canceling a booking null
+2026-10-29 13:12:49 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-29 13:12:49 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-10-29 13:12:49 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-10-29 13:43:26 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests]: CabBookingSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-10-29 13:43:26 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests
+2026-10-29 13:43:26 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests]: CabBookingSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-10-29 13:43:26 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests
+2026-10-29 13:43:26 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - Starting CabBookingSystemApplicationTests using Java 25-loom with PID 5685 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-10-29 13:43:26 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-10-29 13:43:26 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.3.Final
+2026-10-29 13:43:26 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-29 13:43:26 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 4 JPA repository interfaces.
+2026-10-29 13:43:26 INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-29 13:43:26 INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-10-29 13:43:26 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-29 13:43:26 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-10-29 13:43:26 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1dd247b
+2026-10-29 13:43:26 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-10-29 13:43:26 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-29 13:43:26 INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.5
+	Default catalog/schema: postgres/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-29 13:43:27 INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-29 13:43:27 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-29 13:43:27 INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-29 13:43:27 WARN  org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-29 13:43:27 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - Started CabBookingSystemApplicationTests in 1.453 seconds (process running for 1.887)
+2026-10-29 13:43:27 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Creating booking for customer 1 and cab 1
+2026-10-29 13:43:27 WARN  bookingSystem.Cab_Booking_System.Service.BookingService - Cab 1 not available for booking.
+2026-10-29 13:43:27 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Creating booking for customer 1 and cab 1
+2026-10-29 13:43:27 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Booking null created successfully
+2026-10-29 13:43:27 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Canceling a booking null
+2026-10-29 13:43:28 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-29 13:43:28 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-10-29 13:43:28 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-10-29 13:50:50 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest]: CustomerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-10-29 13:50:50 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest
+2026-10-29 13:50:50 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest]: CustomerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-10-29 13:50:50 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest
+2026-10-29 13:50:50 INFO  bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest - Starting CustomerControllerTest using Java 25-loom with PID 6416 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-10-29 13:50:50 INFO  bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-10-29 13:50:50 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.3.Final
+2026-10-29 13:50:51 INFO  org.springframework.boot.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-10-29 13:50:51 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-10-29 13:50:51 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-10-29 13:50:51 INFO  bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest - Started CustomerControllerTest in 0.77 seconds (process running for 1.207)
+2026-10-29 13:50:59 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests]: CabBookingSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-10-29 13:50:59 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests
+2026-10-29 13:50:59 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests]: CabBookingSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-10-29 13:50:59 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests
+2026-10-29 13:50:59 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - Starting CabBookingSystemApplicationTests using Java 25-loom with PID 6559 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-10-29 13:50:59 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-10-29 13:50:59 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.3.Final
+2026-10-29 13:50:59 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-29 13:50:59 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 4 JPA repository interfaces.
+2026-10-29 13:50:59 INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-29 13:50:59 INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-10-29 13:50:59 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-29 13:50:59 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-10-29 13:50:59 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@47d4e28a
+2026-10-29 13:50:59 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-10-29 13:50:59 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-29 13:50:59 INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.5
+	Default catalog/schema: postgres/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-29 13:51:00 INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-29 13:51:00 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-29 13:51:00 INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-29 13:51:00 WARN  org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-29 13:51:00 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - Started CabBookingSystemApplicationTests in 1.469 seconds (process running for 1.897)
+2026-10-29 13:51:00 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest]: CustomerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-10-29 13:51:00 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest
+2026-10-29 13:51:00 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest]: CustomerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-10-29 13:51:00 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest
+2026-10-29 13:51:00 INFO  bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest - Starting CustomerControllerTest using Java 25-loom with PID 6559 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-10-29 13:51:00 INFO  bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-10-29 13:51:01 INFO  org.springframework.boot.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-10-29 13:51:01 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-10-29 13:51:01 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-10-29 13:51:01 INFO  bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest - Started CustomerControllerTest in 0.178 seconds (process running for 2.312)
+2026-10-29 13:51:01 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Creating booking for customer 1 and cab 1
+2026-10-29 13:51:01 WARN  bookingSystem.Cab_Booking_System.Service.BookingService - Cab 1 not available for booking.
+2026-10-29 13:51:01 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Creating booking for customer 1 and cab 1
+2026-10-29 13:51:01 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Booking null created successfully
+2026-10-29 13:51:01 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Canceling a booking null
+2026-10-29 13:51:01 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-29 13:51:01 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-10-29 13:51:01 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
