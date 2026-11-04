@@ -745,3 +745,449 @@ You may need to update both your build tool settings as well as your IDE.
 2026-10-29 13:51:01 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2026-10-29 13:51:01 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2026-10-29 13:51:01 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-11-02 12:16:43 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest]: CustomerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-02 12:16:43 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest
+2026-11-02 12:16:43 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest]: CustomerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-02 12:16:43 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest
+2026-11-02 12:16:43 INFO  bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest - Starting CustomerControllerTest using Java 25-loom with PID 1768 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-11-02 12:16:43 INFO  bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-11-02 12:16:43 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.3.Final
+2026-11-02 12:16:44 INFO  org.springframework.boot.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-11-02 12:16:44 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-11-02 12:16:44 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2026-11-02 12:16:44 INFO  bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest - Started CustomerControllerTest in 0.928 seconds (process running for 1.536)
+2026-11-02 13:13:33 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CabControllerTest]: CabControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-02 13:13:33 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CabControllerTest
+2026-11-02 13:13:33 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CabControllerTest]: CabControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-02 13:13:33 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CabControllerTest
+2026-11-02 13:13:33 INFO  bookingSystem.Cab_Booking_System.Controller.CabControllerTest - Starting CabControllerTest using Java 25-loom with PID 2418 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-11-02 13:13:33 INFO  bookingSystem.Cab_Booking_System.Controller.CabControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-11-02 13:13:33 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.3.Final
+2026-11-02 13:13:34 INFO  org.springframework.boot.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-11-02 13:13:34 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-11-02 13:13:34 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-11-02 13:13:34 INFO  bookingSystem.Cab_Booking_System.Controller.CabControllerTest - Started CabControllerTest in 0.794 seconds (process running for 1.243)
+2026-11-02 13:13:40 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests]: CabBookingSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-02 13:13:40 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests
+2026-11-02 13:13:40 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests]: CabBookingSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-02 13:13:40 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests
+2026-11-02 13:13:40 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - Starting CabBookingSystemApplicationTests using Java 25-loom with PID 2559 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-11-02 13:13:40 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-11-02 13:13:40 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.3.Final
+2026-11-02 13:13:40 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-02 13:13:40 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 4 JPA repository interfaces.
+2026-11-02 13:13:40 INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-02 13:13:40 INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-11-02 13:13:40 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-02 13:13:40 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-11-02 13:13:40 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1e32037d
+2026-11-02 13:13:40 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-11-02 13:13:40 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-11-02 13:13:40 INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.5
+	Default catalog/schema: postgres/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-02 13:13:41 INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-02 13:13:41 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-02 13:13:41 INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-02 13:13:41 WARN  org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-02 13:13:41 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - Started CabBookingSystemApplicationTests in 1.499 seconds (process running for 1.926)
+2026-11-02 13:13:41 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest]: CustomerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-02 13:13:41 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest
+2026-11-02 13:13:41 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest]: CustomerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-02 13:13:41 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest
+2026-11-02 13:13:41 INFO  bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest - Starting CustomerControllerTest using Java 25-loom with PID 2559 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-11-02 13:13:41 INFO  bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-11-02 13:13:42 INFO  org.springframework.boot.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-11-02 13:13:42 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-11-02 13:13:42 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-11-02 13:13:42 INFO  bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest - Started CustomerControllerTest in 0.157 seconds (process running for 2.319)
+2026-11-02 13:13:42 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CabControllerTest]: CabControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-02 13:13:42 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CabControllerTest
+2026-11-02 13:13:42 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CabControllerTest]: CabControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-02 13:13:42 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CabControllerTest
+2026-11-02 13:13:42 INFO  bookingSystem.Cab_Booking_System.Controller.CabControllerTest - Starting CabControllerTest using Java 25-loom with PID 2559 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-11-02 13:13:42 INFO  bookingSystem.Cab_Booking_System.Controller.CabControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-11-02 13:13:42 INFO  org.springframework.boot.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-11-02 13:13:42 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-11-02 13:13:42 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-11-02 13:13:42 INFO  bookingSystem.Cab_Booking_System.Controller.CabControllerTest - Started CabControllerTest in 0.126 seconds (process running for 2.557)
+2026-11-02 13:13:42 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Creating booking for customer 1 and cab 1
+2026-11-02 13:13:42 WARN  bookingSystem.Cab_Booking_System.Service.BookingService - Cab 1 not available for booking.
+2026-11-02 13:13:42 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Creating booking for customer 1 and cab 1
+2026-11-02 13:13:42 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Booking null created successfully
+2026-11-02 13:13:42 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Canceling a booking null
+2026-11-02 13:13:42 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-02 13:13:42 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-11-02 13:13:42 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-11-02 16:11:12 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CabControllerTest]: CabControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-02 16:11:12 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CabControllerTest
+2026-11-02 16:11:12 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CabControllerTest]: CabControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-02 16:11:12 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CabControllerTest
+2026-11-02 16:11:12 INFO  bookingSystem.Cab_Booking_System.Controller.CabControllerTest - Starting CabControllerTest using Java 25-loom with PID 3280 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-11-02 16:11:12 INFO  bookingSystem.Cab_Booking_System.Controller.CabControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-11-02 16:11:12 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.3.Final
+2026-11-02 16:11:13 INFO  org.springframework.boot.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-11-02 16:11:13 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-11-02 16:11:13 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-11-02 16:11:13 INFO  bookingSystem.Cab_Booking_System.Controller.CabControllerTest - Started CabControllerTest in 0.782 seconds (process running for 1.258)
+2026-11-02 16:11:13 WARN  bookingSystem.Cab_Booking_System.Exceptions.GlobalExceptionHandler - Entity not found: Cab not found with this id: 1
+2026-11-02 16:11:19 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests]: CabBookingSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-02 16:11:19 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests
+2026-11-02 16:11:19 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests]: CabBookingSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-02 16:11:19 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests
+2026-11-02 16:11:19 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - Starting CabBookingSystemApplicationTests using Java 25-loom with PID 3422 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-11-02 16:11:19 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-11-02 16:11:19 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.3.Final
+2026-11-02 16:11:19 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-02 16:11:19 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 4 JPA repository interfaces.
+2026-11-02 16:11:20 INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-02 16:11:20 INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-11-02 16:11:20 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-02 16:11:20 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-11-02 16:11:20 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@76d828ff
+2026-11-02 16:11:20 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-11-02 16:11:20 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-11-02 16:11:20 INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.5
+	Default catalog/schema: postgres/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-02 16:11:20 INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-02 16:11:20 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-02 16:11:20 INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-02 16:11:20 WARN  org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-02 16:11:20 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - Started CabBookingSystemApplicationTests in 1.434 seconds (process running for 1.868)
+2026-11-02 16:11:21 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest]: CustomerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-02 16:11:21 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest
+2026-11-02 16:11:21 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest]: CustomerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-02 16:11:21 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest
+2026-11-02 16:11:21 INFO  bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest - Starting CustomerControllerTest using Java 25-loom with PID 3422 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-11-02 16:11:21 INFO  bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-11-02 16:11:21 INFO  org.springframework.boot.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-11-02 16:11:21 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-11-02 16:11:21 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2026-11-02 16:11:21 INFO  bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest - Started CustomerControllerTest in 0.171 seconds (process running for 2.277)
+2026-11-02 16:11:21 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CabControllerTest]: CabControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-02 16:11:21 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CabControllerTest
+2026-11-02 16:11:21 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CabControllerTest]: CabControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-02 16:11:21 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CabControllerTest
+2026-11-02 16:11:21 INFO  bookingSystem.Cab_Booking_System.Controller.CabControllerTest - Starting CabControllerTest using Java 25-loom with PID 3422 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-11-02 16:11:21 INFO  bookingSystem.Cab_Booking_System.Controller.CabControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-11-02 16:11:21 INFO  org.springframework.boot.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-11-02 16:11:21 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-11-02 16:11:21 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-11-02 16:11:21 INFO  bookingSystem.Cab_Booking_System.Controller.CabControllerTest - Started CabControllerTest in 0.111 seconds (process running for 2.501)
+2026-11-02 16:11:21 WARN  bookingSystem.Cab_Booking_System.Exceptions.GlobalExceptionHandler - Entity not found: Cab not found with this id: 1
+2026-11-02 16:11:21 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Creating booking for customer 1 and cab 1
+2026-11-02 16:11:21 WARN  bookingSystem.Cab_Booking_System.Service.BookingService - Cab 1 not available for booking.
+2026-11-02 16:11:21 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Creating booking for customer 1 and cab 1
+2026-11-02 16:11:21 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Booking null created successfully
+2026-11-02 16:11:21 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Canceling a booking null
+2026-11-02 16:11:21 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-02 16:11:21 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-11-02 16:11:21 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-11-03 17:08:28 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.DriverControllerTest]: DriverControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-03 17:08:28 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.DriverControllerTest
+2026-11-03 17:08:28 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.DriverControllerTest]: DriverControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-03 17:08:28 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.DriverControllerTest
+2026-11-03 17:08:28 INFO  bookingSystem.Cab_Booking_System.Controller.DriverControllerTest - Starting DriverControllerTest using Java 25-loom with PID 6025 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-11-03 17:08:28 INFO  bookingSystem.Cab_Booking_System.Controller.DriverControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-11-03 17:08:28 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.3.Final
+2026-11-03 17:08:28 INFO  org.springframework.boot.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-11-03 17:08:28 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-11-03 17:08:28 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2026-11-03 17:08:28 INFO  bookingSystem.Cab_Booking_System.Controller.DriverControllerTest - Started DriverControllerTest in 0.804 seconds (process running for 1.291)
+2026-11-03 17:08:29 WARN  bookingSystem.Cab_Booking_System.Exceptions.GlobalExceptionHandler - Entity not found: Driver not found with this id: 1
+2026-11-03 17:08:35 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests]: CabBookingSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-03 17:08:35 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests
+2026-11-03 17:08:35 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests]: CabBookingSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-03 17:08:35 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests
+2026-11-03 17:08:35 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - Starting CabBookingSystemApplicationTests using Java 25-loom with PID 6168 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-11-03 17:08:35 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-11-03 17:08:35 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.3.Final
+2026-11-03 17:08:35 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-03 17:08:35 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 4 JPA repository interfaces.
+2026-11-03 17:08:35 INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-03 17:08:35 INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-11-03 17:08:36 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-03 17:08:36 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-11-03 17:08:36 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@21bf308
+2026-11-03 17:08:36 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-11-03 17:08:36 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-11-03 17:08:36 INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.5
+	Default catalog/schema: postgres/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-03 17:08:36 INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-03 17:08:36 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03 17:08:36 INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-03 17:08:36 WARN  org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-03 17:08:36 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - Started CabBookingSystemApplicationTests in 1.479 seconds (process running for 1.921)
+2026-11-03 17:08:37 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest]: CustomerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-03 17:08:37 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest
+2026-11-03 17:08:37 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest]: CustomerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-03 17:08:37 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest
+2026-11-03 17:08:37 INFO  bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest - Starting CustomerControllerTest using Java 25-loom with PID 6168 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-11-03 17:08:37 INFO  bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-11-03 17:08:37 INFO  org.springframework.boot.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-11-03 17:08:37 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-11-03 17:08:37 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-11-03 17:08:37 INFO  bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest - Started CustomerControllerTest in 0.169 seconds (process running for 2.329)
+2026-11-03 17:08:37 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.DriverControllerTest]: DriverControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-03 17:08:37 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.DriverControllerTest
+2026-11-03 17:08:37 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.DriverControllerTest]: DriverControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-03 17:08:37 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.DriverControllerTest
+2026-11-03 17:08:37 INFO  bookingSystem.Cab_Booking_System.Controller.DriverControllerTest - Starting DriverControllerTest using Java 25-loom with PID 6168 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-11-03 17:08:37 INFO  bookingSystem.Cab_Booking_System.Controller.DriverControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-11-03 17:08:37 INFO  org.springframework.boot.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-11-03 17:08:37 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-11-03 17:08:37 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2026-11-03 17:08:37 INFO  bookingSystem.Cab_Booking_System.Controller.DriverControllerTest - Started DriverControllerTest in 0.113 seconds (process running for 2.548)
+2026-11-03 17:08:37 WARN  bookingSystem.Cab_Booking_System.Exceptions.GlobalExceptionHandler - Entity not found: Driver not found with this id: 1
+2026-11-03 17:08:37 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CabControllerTest]: CabControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-03 17:08:37 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CabControllerTest
+2026-11-03 17:08:37 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CabControllerTest]: CabControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-03 17:08:37 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CabControllerTest
+2026-11-03 17:08:37 INFO  bookingSystem.Cab_Booking_System.Controller.CabControllerTest - Starting CabControllerTest using Java 25-loom with PID 6168 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-11-03 17:08:37 INFO  bookingSystem.Cab_Booking_System.Controller.CabControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-11-03 17:08:37 INFO  org.springframework.boot.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-11-03 17:08:37 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-11-03 17:08:37 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-11-03 17:08:37 INFO  bookingSystem.Cab_Booking_System.Controller.CabControllerTest - Started CabControllerTest in 0.105 seconds (process running for 2.689)
+2026-11-03 17:08:37 WARN  bookingSystem.Cab_Booking_System.Exceptions.GlobalExceptionHandler - Entity not found: Cab not found with this id: 1
+2026-11-03 17:08:37 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Creating booking for customer 1 and cab 1
+2026-11-03 17:08:37 WARN  bookingSystem.Cab_Booking_System.Service.BookingService - Cab 1 not available for booking.
+2026-11-03 17:08:37 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Creating booking for customer 1 and cab 1
+2026-11-03 17:08:37 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Booking null created successfully
+2026-11-03 17:08:37 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Canceling a booking null
+2026-11-03 17:08:37 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03 17:08:37 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-11-03 17:08:37 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-11-04 12:38:25 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.BookingControllerTest]: BookingControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-04 12:38:25 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.BookingControllerTest
+2026-11-04 12:38:25 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.BookingControllerTest]: BookingControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-04 12:38:25 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.BookingControllerTest
+2026-11-04 12:38:26 INFO  bookingSystem.Cab_Booking_System.Controller.BookingControllerTest - Starting BookingControllerTest using Java 25-loom with PID 1525 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-11-04 12:38:26 INFO  bookingSystem.Cab_Booking_System.Controller.BookingControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-11-04 12:38:26 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.3.Final
+2026-11-04 12:38:26 INFO  org.springframework.boot.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-11-04 12:38:26 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-11-04 12:38:26 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-11-04 12:38:26 INFO  bookingSystem.Cab_Booking_System.Controller.BookingControllerTest - Started BookingControllerTest in 0.842 seconds (process running for 1.317)
+2026-11-04 13:00:48 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.BookingControllerTest]: BookingControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-04 13:00:48 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.BookingControllerTest
+2026-11-04 13:00:48 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.BookingControllerTest]: BookingControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-04 13:00:48 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.BookingControllerTest
+2026-11-04 13:00:48 INFO  bookingSystem.Cab_Booking_System.Controller.BookingControllerTest - Starting BookingControllerTest using Java 25-loom with PID 1796 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-11-04 13:00:48 INFO  bookingSystem.Cab_Booking_System.Controller.BookingControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-11-04 13:00:48 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.3.Final
+2026-11-04 13:00:49 INFO  org.springframework.boot.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-11-04 13:00:49 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-11-04 13:00:49 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2026-11-04 13:00:49 INFO  bookingSystem.Cab_Booking_System.Controller.BookingControllerTest - Started BookingControllerTest in 0.854 seconds (process running for 1.331)
+2026-11-04 13:00:49 WARN  bookingSystem.Cab_Booking_System.Exceptions.GlobalExceptionHandler - Entity not found: Booking not found with id: 1
+2026-11-04 13:00:55 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests]: CabBookingSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-04 13:00:55 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests
+2026-11-04 13:00:55 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests]: CabBookingSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-04 13:00:55 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests
+2026-11-04 13:00:55 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - Starting CabBookingSystemApplicationTests using Java 25-loom with PID 1941 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-11-04 13:00:55 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-11-04 13:00:55 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.3.Final
+2026-11-04 13:00:55 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-04 13:00:55 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 4 JPA repository interfaces.
+2026-11-04 13:00:55 INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-04 13:00:55 INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-11-04 13:00:56 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-04 13:00:56 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-11-04 13:00:56 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@18ff1520
+2026-11-04 13:00:56 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-11-04 13:00:56 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-11-04 13:00:56 INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.5
+	Default catalog/schema: postgres/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-04 13:00:56 INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-04 13:00:56 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-04 13:00:56 INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-04 13:00:56 WARN  org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-04 13:00:56 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - Started CabBookingSystemApplicationTests in 1.52 seconds (process running for 1.966)
+2026-11-04 13:00:57 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest]: CustomerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-04 13:00:57 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest
+2026-11-04 13:00:57 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest]: CustomerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-04 13:00:57 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest
+2026-11-04 13:00:57 INFO  bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest - Starting CustomerControllerTest using Java 25-loom with PID 1941 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-11-04 13:00:57 INFO  bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-11-04 13:00:57 INFO  org.springframework.boot.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-11-04 13:00:57 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-11-04 13:00:57 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-11-04 13:00:57 INFO  bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest - Started CustomerControllerTest in 0.174 seconds (process running for 2.379)
+2026-11-04 13:00:57 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.BookingControllerTest]: BookingControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-04 13:00:57 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.BookingControllerTest
+2026-11-04 13:00:57 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.BookingControllerTest]: BookingControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-04 13:00:57 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.BookingControllerTest
+2026-11-04 13:00:57 INFO  bookingSystem.Cab_Booking_System.Controller.BookingControllerTest - Starting BookingControllerTest using Java 25-loom with PID 1941 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-11-04 13:00:57 INFO  bookingSystem.Cab_Booking_System.Controller.BookingControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-11-04 13:00:57 INFO  org.springframework.boot.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-11-04 13:00:57 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-11-04 13:00:57 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-11-04 13:00:57 INFO  bookingSystem.Cab_Booking_System.Controller.BookingControllerTest - Started BookingControllerTest in 0.112 seconds (process running for 2.602)
+2026-11-04 13:00:57 WARN  bookingSystem.Cab_Booking_System.Exceptions.GlobalExceptionHandler - Entity not found: Booking not found with id: 1
+2026-11-04 13:00:57 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.DriverControllerTest]: DriverControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-04 13:00:57 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.DriverControllerTest
+2026-11-04 13:00:57 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.DriverControllerTest]: DriverControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-04 13:00:57 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.DriverControllerTest
+2026-11-04 13:00:57 INFO  bookingSystem.Cab_Booking_System.Controller.DriverControllerTest - Starting DriverControllerTest using Java 25-loom with PID 1941 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-11-04 13:00:57 INFO  bookingSystem.Cab_Booking_System.Controller.DriverControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-11-04 13:00:57 INFO  org.springframework.boot.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-11-04 13:00:57 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-11-04 13:00:57 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-11-04 13:00:57 INFO  bookingSystem.Cab_Booking_System.Controller.DriverControllerTest - Started DriverControllerTest in 0.099 seconds (process running for 2.74)
+2026-11-04 13:00:57 WARN  bookingSystem.Cab_Booking_System.Exceptions.GlobalExceptionHandler - Entity not found: Driver not found with this id: 1
+2026-11-04 13:00:57 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CabControllerTest]: CabControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-04 13:00:57 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CabControllerTest
+2026-11-04 13:00:57 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CabControllerTest]: CabControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-04 13:00:57 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CabControllerTest
+2026-11-04 13:00:57 INFO  bookingSystem.Cab_Booking_System.Controller.CabControllerTest - Starting CabControllerTest using Java 25-loom with PID 1941 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-11-04 13:00:57 INFO  bookingSystem.Cab_Booking_System.Controller.CabControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-11-04 13:00:57 INFO  org.springframework.boot.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-11-04 13:00:57 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-11-04 13:00:57 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2026-11-04 13:00:57 INFO  bookingSystem.Cab_Booking_System.Controller.CabControllerTest - Started CabControllerTest in 0.082 seconds (process running for 2.847)
+2026-11-04 13:00:57 WARN  bookingSystem.Cab_Booking_System.Exceptions.GlobalExceptionHandler - Entity not found: Cab not found with this id: 1
+2026-11-04 13:00:57 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Creating booking for customer 1 and cab 1
+2026-11-04 13:00:57 WARN  bookingSystem.Cab_Booking_System.Service.BookingService - Cab 1 not available for booking.
+2026-11-04 13:00:57 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Creating booking for customer 1 and cab 1
+2026-11-04 13:00:57 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Booking null created successfully
+2026-11-04 13:00:57 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Canceling a booking null
+2026-11-04 13:00:58 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-04 13:00:58 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-11-04 13:00:58 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-11-04 14:02:37 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest]: CustomerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-04 14:02:37 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest
+2026-11-04 14:02:37 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest]: CustomerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-04 14:02:37 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest
+2026-11-04 14:02:37 INFO  bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest - Starting CustomerControllerTest using Java 25-loom with PID 2349 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-11-04 14:02:37 INFO  bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-11-04 14:02:37 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.3.Final
+2026-11-04 14:02:38 INFO  org.springframework.boot.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-11-04 14:02:38 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-11-04 14:02:38 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-11-04 14:02:38 INFO  bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest - Started CustomerControllerTest in 0.78 seconds (process running for 1.224)
+2026-11-04 14:02:38 WARN  bookingSystem.Cab_Booking_System.Exceptions.GlobalExceptionHandler - Entity not found: Customer not found with id: 1
+2026-11-04 14:02:43 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests]: CabBookingSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-04 14:02:43 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests
+2026-11-04 14:02:43 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests]: CabBookingSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-04 14:02:43 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests
+2026-11-04 14:02:43 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - Starting CabBookingSystemApplicationTests using Java 25-loom with PID 2488 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-11-04 14:02:43 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-11-04 14:02:43 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.3.Final
+2026-11-04 14:02:43 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-04 14:02:43 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 4 JPA repository interfaces.
+2026-11-04 14:02:43 INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-04 14:02:43 INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-11-04 14:02:43 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-04 14:02:43 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-11-04 14:02:44 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5521407f
+2026-11-04 14:02:44 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-11-04 14:02:44 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-11-04 14:02:44 INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.5
+	Default catalog/schema: postgres/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-04 14:02:44 INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-04 14:02:44 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-04 14:02:44 INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-04 14:02:44 WARN  org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-04 14:02:44 INFO  bookingSystem.Cab_Booking_System.CabBookingSystemApplicationTests - Started CabBookingSystemApplicationTests in 1.388 seconds (process running for 1.82)
+2026-11-04 14:02:44 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest]: CustomerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-04 14:02:44 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest
+2026-11-04 14:02:44 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest]: CustomerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-04 14:02:44 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest
+2026-11-04 14:02:44 INFO  bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest - Starting CustomerControllerTest using Java 25-loom with PID 2488 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-11-04 14:02:44 INFO  bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-11-04 14:02:45 INFO  org.springframework.boot.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-11-04 14:02:45 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-11-04 14:02:45 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-11-04 14:02:45 INFO  bookingSystem.Cab_Booking_System.Controller.CustomerControllerTest - Started CustomerControllerTest in 0.168 seconds (process running for 2.219)
+2026-11-04 14:02:45 WARN  bookingSystem.Cab_Booking_System.Exceptions.GlobalExceptionHandler - Entity not found: Customer not found with id: 1
+2026-11-04 14:02:45 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.BookingControllerTest]: BookingControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-04 14:02:45 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.BookingControllerTest
+2026-11-04 14:02:45 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.BookingControllerTest]: BookingControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-04 14:02:45 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.BookingControllerTest
+2026-11-04 14:02:45 INFO  bookingSystem.Cab_Booking_System.Controller.BookingControllerTest - Starting BookingControllerTest using Java 25-loom with PID 2488 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-11-04 14:02:45 INFO  bookingSystem.Cab_Booking_System.Controller.BookingControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-11-04 14:02:45 INFO  org.springframework.boot.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-11-04 14:02:45 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-11-04 14:02:45 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-11-04 14:02:45 INFO  bookingSystem.Cab_Booking_System.Controller.BookingControllerTest - Started BookingControllerTest in 0.112 seconds (process running for 2.455)
+2026-11-04 14:02:45 WARN  bookingSystem.Cab_Booking_System.Exceptions.GlobalExceptionHandler - Entity not found: Booking not found with id: 1
+2026-11-04 14:02:45 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.DriverControllerTest]: DriverControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-04 14:02:45 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.DriverControllerTest
+2026-11-04 14:02:45 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.DriverControllerTest]: DriverControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-04 14:02:45 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.DriverControllerTest
+2026-11-04 14:02:45 INFO  bookingSystem.Cab_Booking_System.Controller.DriverControllerTest - Starting DriverControllerTest using Java 25-loom with PID 2488 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-11-04 14:02:45 INFO  bookingSystem.Cab_Booking_System.Controller.DriverControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-11-04 14:02:45 INFO  org.springframework.boot.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-11-04 14:02:45 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-11-04 14:02:45 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2026-11-04 14:02:45 INFO  bookingSystem.Cab_Booking_System.Controller.DriverControllerTest - Started DriverControllerTest in 0.102 seconds (process running for 2.594)
+2026-11-04 14:02:45 WARN  bookingSystem.Cab_Booking_System.Exceptions.GlobalExceptionHandler - Entity not found: Driver not found with this id: 1
+2026-11-04 14:02:45 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CabControllerTest]: CabControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-04 14:02:45 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CabControllerTest
+2026-11-04 14:02:45 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [bookingSystem.Cab_Booking_System.Controller.CabControllerTest]: CabControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-04 14:02:45 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration bookingSystem.Cab_Booking_System.CabBookingSystemApplication for test class bookingSystem.Cab_Booking_System.Controller.CabControllerTest
+2026-11-04 14:02:45 INFO  bookingSystem.Cab_Booking_System.Controller.CabControllerTest - Starting CabControllerTest using Java 25-loom with PID 2488 (started by miumiu in /Users/miumiu/Downloads/Cab_Booking_System)
+2026-11-04 14:02:45 INFO  bookingSystem.Cab_Booking_System.Controller.CabControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-11-04 14:02:45 INFO  org.springframework.boot.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-11-04 14:02:45 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-11-04 14:02:45 INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-11-04 14:02:45 INFO  bookingSystem.Cab_Booking_System.Controller.CabControllerTest - Started CabControllerTest in 0.083 seconds (process running for 2.702)
+2026-11-04 14:02:45 WARN  bookingSystem.Cab_Booking_System.Exceptions.GlobalExceptionHandler - Entity not found: Cab not found with this id: 1
+2026-11-04 14:02:45 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Creating booking for customer 1 and cab 1
+2026-11-04 14:02:45 WARN  bookingSystem.Cab_Booking_System.Service.BookingService - Cab 1 not available for booking.
+2026-11-04 14:02:45 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Creating booking for customer 1 and cab 1
+2026-11-04 14:02:45 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Booking null created successfully
+2026-11-04 14:02:45 INFO  bookingSystem.Cab_Booking_System.Service.BookingService - Canceling a booking null
+2026-11-04 14:02:45 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-04 14:02:45 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-11-04 14:02:45 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
