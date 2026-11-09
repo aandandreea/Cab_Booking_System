@@ -17,18 +17,6 @@ A REST API for a cab booking system, built with Spring Boot. It manages customer
 - **Driver** — drivers, each optionally linked to a cab
 - **Booking** — bookings, with status `CONFIRMED` / `COMPLETED` / `CANCELLED`
 
-## Configuration
-
-The application reads the database credentials from environment variables:
-
-```bash
-export DB_USERNAME=postgres
-export DB_PASSWORD=your_password
-```
-
-`DB_USERNAME` defaults to `postgres` if not set; `DB_PASSWORD` is required.
-
-The database schema must already exist (it is not generated automatically — `ddl-auto=validate`).
 
 ## Running the app
 
@@ -37,6 +25,16 @@ The database schema must already exist (it is not generated automatically — `d
 ```
 
 The application starts on `http://localhost:8080`.
+
+## Running with Docker
+
+The app can also be run containerized, together with a PostgreSQL database, using Docker Compose:
+
+This starts two services:
+
+- `app` — the Spring Boot application, built from the `Dockerfile` (multi-stage build: Maven/JDK to compile, then a slim JRE image to run), exposed on `http://localhost:8080`
+- `db` — a PostgreSQL 17 container, exposed on `localhost:5433` (mapped from the container's `5432`, to avoid clashing with a local Postgres install)
+
 
 ## Endpoints
 
