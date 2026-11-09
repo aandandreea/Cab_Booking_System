@@ -102,3 +102,11 @@ Status codes used:
 - `400 Bad Request` — invalid data
 - `404 Not Found` — resource not found
 - `409 Conflict` — duplicate email/license number, or cab not available
+
+## Testing
+
+The project has unit tests (Mockito) for all Service classes and integration tests (`@WebMvcTest` + `MockMvc`) for all Controllers, covering validation, success paths, and error handling (404/409).
+
+```bash
+./mvnw test
+
